@@ -3,6 +3,14 @@
         <PackageId>WalletFramework.Routing.Edge</PackageId>
         <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Hyperledger.Aries.Routing.Edge.xml</DocumentationFile>
     </PropertyGroup>
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\Hyperledger.Aries.Routing\Hyperledger.Aries.Routing.csproj" />
