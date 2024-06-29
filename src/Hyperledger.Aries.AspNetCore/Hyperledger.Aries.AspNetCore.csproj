@@ -6,6 +6,8 @@
     <Description>ASP.NET Core support for Agent Framework</Description>
     <PackageId>WalletFramework.AspNetCore</PackageId>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <AssemblyVersion>2.24.146.1</AssemblyVersion>
+    <FileVersion>2.24.146.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

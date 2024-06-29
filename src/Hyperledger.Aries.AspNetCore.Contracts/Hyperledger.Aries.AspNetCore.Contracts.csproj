@@ -8,6 +8,8 @@
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
+    <AssemblyVersion>2.24.146.1</AssemblyVersion>
+    <FileVersion>2.24.146.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

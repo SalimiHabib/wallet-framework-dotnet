@@ -6,6 +6,8 @@
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
         <Nullable>enable</Nullable>
         <LangVersion>9.0</LangVersion>
+        <AssemblyVersion>2.24.146.1</AssemblyVersion>
+        <FileVersion>2.24.146.1</FileVersion>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Flurl" Version="$(FlurlVersion)" />
