@@ -8,6 +8,7 @@
         <LangVersion>9.0</LangVersion>
         <AssemblyVersion>2.24.146.1</AssemblyVersion>
         <FileVersion>2.24.146.1</FileVersion>
+        <Configurations>Debug;Release;Beta</Configurations>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Flurl" Version="$(FlurlVersion)" />
